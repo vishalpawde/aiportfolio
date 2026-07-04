@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vishal — AI Filmmaker &amp; Cinematic Video Creator</title>
+<meta name="description" content="Vishal is an AI Filmmaker and Video Editor crafting cinematic AI commercials, product films, reels, YouTube content and brand campaigns.">
+<meta name="keywords" content="AI video creator, AI filmmaker, AI video editor, cinematic AI ads, AI reels, AI product videos, Vishal">
+<meta name="author" content="Vishal">
+<meta property="og:title" content="Vishal — AI Filmmaker & Cinematic Video Creator">
+<meta property="og:description" content="Cinematic AI video production — commercials, product films, reels, and brand campaigns.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,900;1,9..144,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Grain / vignette overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- ===== NAV ===== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">VISHAL<span class="nav__logo-dot">.</span></a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav__right">
+      <span class="nav__timecode" id="timecode" aria-hidden="true">00:00:00:00</span>
+      <a href="#contact" class="btn btn--ghost btn--sm">Book a Project</a>
+    </div>
+
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="top">
+  <div class="hero__bar hero__bar--top" aria-hidden="true"></div>
+  <div class="hero__bar hero__bar--bottom" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <div class="hero__copy">
+      <p class="eyebrow"><span class="eyebrow__rec" aria-hidden="true"></span>AI Filmmaker &amp; Video Editor</p>
+      <h1 class="hero__headline">
+        I Create <em>Cinematic</em> AI Videos<br> That Capture Attention.
+      </h1>
+      <p class="hero__desc">
+        I design and direct AI-generated advertisements, product films, educational content,
+        reels, YouTube videos and full brand campaigns — built frame by frame with the pacing,
+        light and rhythm of real cinema.
+      </p>
+      <div class="hero__cta">
+        <a href="#portfolio" class="btn btn--primary">Watch Portfolio</a>
+        <a href="#contact" class="btn btn--outline">Contact Me</a>
+      </div>
+
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__num">120+</span>
+          <span class="stat__label">Videos Produced</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">40+</span>
+          <span class="stat__label">Brands Served</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">4.2M+</span>
+          <span class="stat__label">Views Generated</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__visual">
+      <div class="phone" id="phone">
+        <div class="phone__notch"></div>
+        <video class="phone__video" autoplay muted loop playsinline preload="metadata" poster="assets/hero-poster.jpg">
+          <source src="videos/hero.mp4" type="video/mp4">
+        </video>
+        <div class="phone__ui">
+          <span class="phone__ui-dot"></span>
+          <span class="phone__ui-text">LIVE — AI RENDER</span>
+        </div>
+      </div>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__frame-label">FRAME 01 / CAM A</div>
+    </div>
+  </div>
+
+  <a href="#portfolio" class="scroll-cue" aria-label="Scroll to portfolio">
+    <span>Scroll</span>
+    <span class="scroll-cue__line"></span>
+  </a>
+</section>
+
+<!-- ===== MARQUEE ===== -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>AI Commercials</span><span>·</span>
+    <span>Product Films</span><span>·</span>
+    <span>Educational Videos</span><span>·</span>
+    <span>Reels &amp; Shorts</span><span>·</span>
+    <span>YouTube Editing</span><span>·</span>
+    <span>Brand Campaigns</span><span>·</span>
+    <span>AI Commercials</span><span>·</span>
+    <span>Product Films</span><span>·</span>
+    <span>Educational Videos</span><span>·</span>
+    <span>Reels &amp; Shorts</span><span>·</span>
+    <span>YouTube Editing</span><span>·</span>
+    <span>Brand Campaigns</span><span>·</span>
+  </div>
+</div>
+
+<!-- ===== PORTFOLIO ===== -->
+<section class="section portfolio" id="portfolio">
+  <div class="section__head">
+    <p class="eyebrow">Selected Work</p>
+    <h2 class="section__title">A Reel Worth Watching</h2>
+    <p class="section__sub">Every project below is an AI-generated film, muted and looping — hover to see it move.</p>
+  </div>
+
+  <div class="grid grid--portfolio" id="portfolioGrid">
+
+    <article class="card card--video" data-category="AI Commercial">
+      <div class="card__media">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/poster-1.jpg">
+          <source src="videos/project-01.mp4" type="video/mp4">
+        </video>
+        <span class="card__duration">00:32</span>
+      </div>
+      <div class="card__meta">
+        <h3 class="card__title">Lumière Skincare — Launch Film</h3>
+        <span class="card__category">AI Commercial Ad</span>
+      </div>
+    </article>
+
+    <article class="card card--video" data-category="Product Video">
+      <div class="card__media">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/poster-2.jpg">
+          <source src="videos/project-02.mp4" type="video/mp4">
+        </video>
+        <span class="card__duration">00:24</span>
+      </div>
+      <div class="card__meta">
+        <h3 class="card__title">Orbit Watch — Product Reveal</h3>
+        <span class="card__category">AI Product Video</span>
+      </div>
+    </article>
+
+    <article class="card card--video" data-category="Reel">
+      <div class="card__media">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/poster-3.jpg">
+          <source src="videos/project-03.mp4" type="video/mp4">
+        </video>
+        <span class="card__duration">00:15</span>
+      </div>
+      <div class="card__meta">
+        <h3 class="card__title">Nomad Coffee — Instagram Reel</h3>
+        <span class="card__category">Reels &amp; Shorts</span>
+      </div>
+    </article>
+
+    <article class="card card--video" data-category="Educational">
+      <div class="card__media">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/poster-4.jpg">
+          <source src="videos/project-04.mp4" type="video/mp4">
+        </video>
+        <span class="card__duration">01:10</span>
+      </div>
+      <div class="card__meta">
+        <h3 class="card__title">FinLearn — How Compounding Works</h3>
+        <span class="card__category">Educational Video</span>
+      </div>
+    </article>
+
+    <article class="card card--video" data-category="YouTube">
+      <div class="card__media">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/poster-5.jpg">
+          <source src="videos/project-05.mp4" type="video/mp4">
+        </video>
+        <span class="card__duration">00:48</span>
+      </div>
+      <div class="card__meta">
+        <h3 class="card__title">Startup Diaries — Ep. 12 Cut</h3>
+        <span class="card__category">YouTube Editing</span>
+      </div>
+    </article>
+
+    <article class="card card--video" data-category="Brand Campaign">
+      <div class="card__media">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/poster-6.jpg">
+          <source src="videos/project-06.mp4" type="video/mp4">
+        </video>
+        <span class="card__duration">00:40</span>
+      </div>
+      <div class="card__meta">
+        <h3 class="card__title">Verve Sneakers — Campaign Film</h3>
+        <span class="card__category">Brand Campaign</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section services" id="services">
+  <div class="section__head">
+    <p class="eyebrow">What I Offer</p>
+    <h2 class="section__title">Every Format, One Standard</h2>
+    <p class="section__sub">From a 15-second reel to a full campaign — each frame is directed, not just generated.</p>
+  </div>
+
+  <div class="grid grid--services">
+    <div class="service">
+      <div class="service__icon" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="9" width="32" height="22" rx="3" stroke="currentColor" stroke-width="1.4"/><path d="M15 15l10 5-10 5V15z" fill="currentColor"/></svg>
+      </div>
+      <h3 class="service__title">AI Commercial Ads</h3>
+      <p class="service__desc">High-impact commercials engineered to stop the scroll and sell in the first three seconds.</p>
+    </div>
+
+    <div class="service">
+      <div class="service__icon" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none"><path d="M20 5l4 8 8 1-6 6 1 8-7-4-7 4 1-8-6-6 8-1 4-8z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+      </div>
+      <h3 class="service__title">AI Product Videos</h3>
+      <p class="service__desc">Studio-grade product reveals with cinematic lighting and motion, rendered without a physical shoot.</p>
+    </div>
+
+    <div class="service">
+      <div class="service__icon" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="8" width="28" height="20" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="M12 32h16" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+      </div>
+      <h3 class="service__title">AI Educational Videos</h3>
+      <p class="service__desc">Complex ideas explained through clean visual storytelling that keeps learners watching to the end.</p>
+    </div>
+
+    <div class="service">
+      <div class="service__icon" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none"><rect x="12" y="5" width="16" height="30" rx="3" stroke="currentColor" stroke-width="1.4"/><circle cx="20" cy="30" r="1.4" fill="currentColor"/></svg>
+      </div>
+      <h3 class="service__title">AI Reels &amp; Shorts</h3>
+      <p class="service__desc">Fast-cut, sound-synced vertical videos built for Instagram, TikTok and YouTube Shorts retention.</p>
+    </div>
+
+    <div class="service">
+      <div class="service__icon" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="1.4"/><path d="M16 15l9 5-9 5V15z" fill="currentColor"/></svg>
+      </div>
+      <h3 class="service__title">YouTube Video Editing</h3>
+      <p class="service__desc">Pacing, sound design and color grading that turn raw footage into a channel people subscribe to.</p>
+    </div>
+
+    <div class="service">
+      <div class="service__icon" aria-hidden="true">
+        <svg viewBox="0 0 40 40" fill="none"><path d="M6 30l8-16 6 10 4-6 10 12" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" fill="none"/></svg>
+      </div>
+      <h3 class="service__title">Motion Graphics</h3>
+      <p class="service__desc">Kinetic typography, titles and animated brand elements layered on top of every production.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="section about" id="about">
+  <div class="about__inner">
+    <div class="about__visual">
+      <div class="about__frame">
+        <span class="about__monogram">V</span>
+        <div class="about__frame-ticks" aria-hidden="true"></div>
+      </div>
+      <div class="about__badge">
+        <span>AI Filmmaker</span>
+        <span class="about__badge-sep">/</span>
+        <span>Est. 2021</span>
+      </div>
+    </div>
+
+    <div class="about__copy">
+      <p class="eyebrow">About Vishal</p>
+      <h2 class="section__title">Directing Machines Like a Cinematographer</h2>
+      <p class="about__text">
+        I'm Vishal, an AI Filmmaker and Video Editor who treats generative tools the way a
+        director treats a camera crew — as instruments for a story, not the story itself.
+        Over the last few years I've built a practice around cinematic AI content: lighting
+        that feels shot, motion that feels choreographed, and edits that feel human.
+      </p>
+      <p class="about__text">
+        My work spans commercial ads, product launches, educational explainers, reels and
+        full brand campaigns — always built around the same question: what makes someone
+        stop scrolling and keep watching?
+      </p>
+
+      <ul class="about__list">
+        <li>Cinematic direction across every AI-generated frame</li>
+        <li>End-to-end production — script, generation, edit, sound, grade</li>
+        <li>Trusted by fast-growing brands and independent creators alike</li>
+      </ul>
+
+      <a href="#contact" class="btn btn--primary">Work With Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section contact" id="contact">
+  <div class="contact__panel">
+    <div class="contact__left">
+      <p class="eyebrow">Let's Make Something</p>
+      <h2 class="section__title">Ready For Your Next Film?</h2>
+      <p class="section__sub">
+        Tell me about your brand, your timeline and the story you want told —
+        I'll reply with a plan and a quote within 24 hours.
+      </p>
+      <a href="#" class="btn btn--primary btn--lg">Book a Project</a>
+    </div>
+
+    <div class="contact__right">
+      <a class="contact__row" href="mailto:hello@vishalcreates.com">
+        <span class="contact__label">Email</span>
+        <span class="contact__value">hello@vishalcreates.com</span>
+      </a>
+      <a class="contact__row" href="https://wa.me/910000000000" target="_blank" rel="noopener">
+        <span class="contact__label">WhatsApp</span>
+        <span class="contact__value">+91 00000 00000</span>
+      </a>
+      <a class="contact__row" href="https://instagram.com/vishalcreates" target="_blank" rel="noopener">
+        <span class="contact__label">Instagram</span>
+        <span class="contact__value">@vishalcreates</span>
+      </a>
+      <a class="contact__row" href="https://youtube.com/@vishalcreates" target="_blank" rel="noopener">
+        <span class="contact__label">YouTube</span>
+        <span class="contact__value">/vishalcreates</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Vishal. All rights reserved.</span>
+  <span class="footer__tag">Cinematic AI Video Production</span>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
